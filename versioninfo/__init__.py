@@ -1,6 +1,6 @@
-import sys, fman
+import fman, sys
 
-class VersionInfo(fman.DirectoryPaneCommand):
+class VersionInfo(fman.ApplicationCommand):
     def __call__(self):
         fmanVer = "unknown"
         try:
